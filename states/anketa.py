@@ -1,0 +1,25 @@
+from aiogram.dispatcher.filters.state import State, StatesGroup
+
+
+class UserState(StatesGroup):
+    name = State()
+    year = State()
+    phone = State()
+    sphone = State()
+    job = State()
+    region = State()
+    address = State()
+    nation = State()
+    family = State()
+    jobexperience = State()
+    oldjob = State()
+    edu = State()
+    salary = State()
+    time = State()
+    sud = State()
+    rus = State()
+    word = State()
+    exel = State()
+    find = State()
+    photo = State()
+    check = State()
